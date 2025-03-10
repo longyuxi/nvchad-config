@@ -1,3 +1,9 @@
+# Installation
+
+`git clone git@github.com:longyuxi/nvchad-config.git ~/.config/nvim`
+
+===
+
 **This repo is supposed to used as config by NvChad users!**
 
 - The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
