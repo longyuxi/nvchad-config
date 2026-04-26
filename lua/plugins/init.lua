@@ -5,21 +5,26 @@ return {
     opts = require "configs.conform",
   },
 
-  {
-    "Pocco81/auto-save.nvim",
-    lazy = false,
-    config = function()
-       require("auto-save").setup {
-        -- your config goes here
-        -- or just leave it empty :)
-       }
-    end,
-  },
+  -- {
+  --   "Pocco81/auto-save.nvim",
+  --   lazy = false,
+  --   config = function()
+  --      require("auto-save").setup {
+  --       -- your config goes here
+  --       -- or just leave it empty :)
+  --      }
+  --   end,
+  -- },
 
   {
     "tpope/vim-surround",
     lazy = false
   },
+
+  -- {
+  --   "ntpeters/vim-better-whitespace",
+  --   lazy = false
+  -- },
 
   {
     "tpope/vim-commentary",
